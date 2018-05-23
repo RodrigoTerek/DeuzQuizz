@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uamtcc.com.br.deusquizz.Quizz">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_nroQuest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Questão nº "
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView_pergunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Mussum Ipsum, cacilds vidis litro abertis. Sapien in monti palavris qui num significa nadis i pareci latim. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Viva Forevis aptent taciti sociosqu ad litora torquent.  Suco de cevadiss deixa as pessoas mais interessantis. Delegadis gente finis, bibendum egestas augue arcu ut est. Leite de capivaris, leite de mula manquis sem cabeça. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis."
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radioButton_alt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:text="Alternativa 1"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_alt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:text="Alternativa 2"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_alt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:text="Alternativa 3"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_alt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:text="Alternativa 4"
+                    android:textSize="24sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton_alt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:duplicateParentState="true"
+                    android:text="Alternativa 5"
+                    android:textSize="24sp" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_avancar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Avançar" />
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

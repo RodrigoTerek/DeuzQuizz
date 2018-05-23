@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Deus Quizz</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="passou">VOCÊ PASSOU DE FASE!</string>
+    <string name="falhou">Precisa estudar mais!</string>
+    <string name="pontuacao">Sua pontuação foi de:</string>
+    <string name="pontos_feliz">pontos :)</string>
+    <string name="pontos_triste">pontos :(</string>
+    <string name="about">
+        Esse é um projeto desenvolvido por um aluno da Universidade Anhembi Morumbi para inovar o método de estudo
+    </string>
+    <string name="about_alunos">Rodrigo Terek\nRA: 20653605</string>
+    <string name="parabens">PARABÉNS</string>
+    <string name="vocefalhou">Você falhou,</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
